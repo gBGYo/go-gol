@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/gBGYo/go-gol/gol/terminal"
+	// "github.com/gBGYo/go-gol/gol/terminal"
+	"github.com/gBGYo/go-gol/gol/web"
 )
 
 func main() {
-	terminal.Run()
+	// terminal.Run()
+	web.Run()
 }
